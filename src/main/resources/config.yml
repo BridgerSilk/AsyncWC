@@ -1,0 +1,17 @@
+# Default async behavior for worlds created by other plugins (e.g., Multiverse)
+auto-handle-external-creations: true
+
+# Mode for auto-handled worlds: minimal|decreased|all
+default-mode: minimal
+
+pregen:
+  radius: 8               # in chunks around spawn
+  chunks-per-tick: 10     # how much to process per tick (higher = faster but laggier)
+  set-worldborder: false  # optionally clamp exploration to pregenerated area
+
+# Optional template folders copied before creation when mode != minimal
+# (absolute or relative to server root)
+templates:
+  normal: ""
+  flat: ""
+  void: ""

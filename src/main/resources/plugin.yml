@@ -1,4 +1,14 @@
 name: asyncwc
 main: tk.bridgersilk.asyncwc.Plugin
 version: 1.2
-api-version: 1.15
+api-version: 1.19
+author: BridgerSilk
+description: Make the bukkit world creation as async as safely possible.
+commands:
+  asyncworld:
+    description: Async world utilities
+    usage: "/asyncworld create <flat|normal|void> <name> <minimal|decreased|all>"
+    permission: asyncwc.use
+permissions:
+  asyncwc.use:
+    default: op
