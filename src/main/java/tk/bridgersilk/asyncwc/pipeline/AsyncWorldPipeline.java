@@ -48,7 +48,7 @@ public class AsyncWorldPipeline {
 				switch (kind) {
 					case FLAT -> {
 						creator.type(WorldType.FLAT);
-                        creator.generatorSettings("{\"layers\": [{\"block\": \"bedrock\", \"height\": 1}, {\"block\": \"dirt\", \"height\": 2}, {\"block\": \"grass\", \"height\": 1}], \"biome\":\"plains\"}");
+                        creator.generatorSettings("{\"layers\": [{\"block\": \"bedrock\", \"height\": 1}, {\"block\": \"dirt\", \"height\": 2}, {\"block\": \"grass_block\", \"height\": 1}], \"biome\":\"plains\"}");
 					}
 					case VOID -> {
                         creator.type(WorldType.FLAT);
